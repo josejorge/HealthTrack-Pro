@@ -1,0 +1,21 @@
+# ──────────────────────────────────────────────────────────
+# HealthTrack Pro — Dependencias de producción
+# ──────────────────────────────────────────────────────────
+
+# UI Desktop
+PySide6>=6.6.0,<7.0.0
+
+# Base de datos
+SQLAlchemy>=2.0.0,<3.0.0
+
+# Visualización y gráficas
+matplotlib>=3.8.0
+numpy>=1.26.0
+pandas>=2.1.0
+
+# Exportación
+openpyxl>=3.1.0          # Excel
+reportlab>=4.0.0         # PDF
+
+# Imagen y assets
+Pillow>=10.0.0

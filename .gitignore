@@ -1,0 +1,65 @@
+# ──────────────────────────────────────────────────────────
+# HealthTrack Pro — .gitignore
+# ──────────────────────────────────────────────────────────
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Base de datos (datos personales — no versionar)
+database/*.db
+database/*.db-shm
+database/*.db-wal
+*.sqlite
+*.sqlite3
+
+# Backups y exports (generados automáticamente)
+backups/
+exports/
+
+# Logs
+logs/
+*.log
+
+# Configuración local del usuario
+config/settings.json
+
+# PyInstaller
+*.spec
+build/
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Coverage y testing
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Windows
+desktop.ini
+$RECYCLE.BIN/
